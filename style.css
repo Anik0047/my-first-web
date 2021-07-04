@@ -1,6 +1,9 @@
 body{
+    background-image: url(kyoto.jpg);
+    background-size: cover;
+
     font-family: 'Lobster', cursive;
-    color: white;
+    color:white;
     margin: 0;
 }
    
@@ -10,18 +13,23 @@ section{
 .half-width{
     width: 50%;
     padding-left: 50px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .half-width img{
     width: 70%;
 
 }
-.back-photo{
-    background-image: url(grass.png);
-}
+
 .linked-in-button{
+    color: white;
     text-decoration: none;
-    background-color: tomato;
+    background-color: black;
     padding: 10px 30px;
     border-radius: 5px;
+}
+#picture-fixed{
+    width: 100%;
+}
+.new-place{
+    padding: 60px;
 }
