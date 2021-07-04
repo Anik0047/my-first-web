@@ -1,3 +1,27 @@
 body{
+    font-family: 'Lobster', cursive;
+    color: white;
+    margin: 0;
+}
+   
+section{
     display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.half-width img{
+    width: 70%;
+
+}
+.back-photo{
+    background-image: url(grass.png);
+}
+.linked-in-button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 5px;
 }
